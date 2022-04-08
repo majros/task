@@ -1,10 +1,6 @@
 'use strict';
 
-const t = 174;
-const k = 3;
-const ls = [51, 56, 58, 59, 61];
-
-const chooseOptimalDistance = (t, k, ls) => {
+const chooseOptimalDistance = (174, 3, [51, 56, 58, 59, 61]) => {
     if (t < 0) throw 't must be >= 0';
     if (k < 1) throw 'K must be >= 1';
     if (ls.length === 0) throw 'Array ls must contain 1 element';
